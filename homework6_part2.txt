@@ -1,0 +1,58 @@
+Bryan Bejarano
+
+Homework #6 part 2
+
+----------------------------------------------------------------------------------------------------
+
+1. 
+-The Fetch Api is a promise based api which takes place of the functionalities of the XMLHttpRequest(XHR). 
+-It takes place of the functionality of the XMLHttpRequest(XHR).
+-It provides an interface for fetching resources from around the Web, or even from within your own project.
+ It is much more powerful than XHR (AJAX), and much more flexible as well.
+
+2.              
+-Completion or failure of an asynchronous operation and its resulting value.
+
+3. 
+-Developers like to use fetch API because is simple to use with promise chaining. 
+-It is so popular is due to its flexibility and that it's so powerful.
+4.
+-The Fetch Api is completely promise based.
+
+5.
+- function nameOfFunction(bryan) {
+code here
+}
+
+6. 
+-It begins with the function keyword.
+
+7. 
+-Followed by the name of the function.
+
+8.
+-Function names follow the same rules as variables. 
+-They can contain letters
+-Numbers
+-Underscores 
+-$ signs
+-If there is more than one part to the name, the convention is to use camelCase for easier readability.
+
+9. 
+-Promise chaining is represented by the .then() blocks here. We use chaining, indicated by the dot (.) before then().
+
+10. 
+-We use arrow functions inside the .then() block, so that our objects can be seamlessly passed from one .then() block into another, without implementing a lot of extra code that is implicitly achieved with chaining.
+
+11. 
+-The Geolocation Api is a web api that allows the user to provide their location to web applications if they want to.
+
+12. 
+-Must add the geolocation permission property to their code.
+There are two pieces involved. Explain what each piece represents. Applications that want to use the Geolocation API must add the geolocation permission property 'navigator.geolocation'. by using this the users will give access to get their location.This will prompt the users device to get location access. It returns a geolocation object that gives web content access to the location of any device. The navigator contains information about the current browser; including whether or not it supports the Geolocation property.
+
+13. 
+-Use the application that you build to find out how. When you click to get your location, you will be asked to allow or block by the current domain. On the top left corner is going to show a box where you have two options to allow or block. It only gives you location if you allow your device to get your location. 
+
+14. 
+-We use '.getCurrentPosition()' built-in method by passing a reference to geoSuccess to get '.getCurrentPosition()' querying #map=18 followed by ${latitude}/ ${longittude} takes you to the user’s current location on a map.

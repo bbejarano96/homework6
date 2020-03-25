@@ -1,0 +1,77 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Times', serif;
+    font-size: 2rem;
+    background: white;
+    overflow-y: scroll; }
+}
+.mysite{
+	flex:1;
+}
+.mymain_content{
+	width: 100%;
+	display: flex;
+    min-height: 95vh;
+    flex-direction: column;
+}
+.button_wrapper{
+	padding-top:200px;
+	width: 90%;
+    display: flex;
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+	font-size: 2rem;
+}
+
+button{
+	font-size: 1.8rem;
+	padding: 10px;
+	margin: 10px 6px 10px;
+	font-family: 'Times', serif;
+	background-color:black;
+	color:grey;
+}
+
+button:hover{
+	cursor: pointer;
+	color: white;
+	background-color: grey;
+	transition: .4s ease-in-out;
+}
+
+.api_wrapper{
+	width: 400px;
+	margin: auto;
+}
+
+.api_wqrapper p{
+	font-size: 1.4rem;
+}
+
+.api_wrapper a{
+	font-size: 1.4rem;
+	color: white;
+}
+
+.api_wrapper a:hover{
+	color: black;
+}
+
+ul{
+	list-style: none;
+	font-size: 1.4rem;
+}
+
+.mysite-footer {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-size: 100%;
+	color: black;
+}
